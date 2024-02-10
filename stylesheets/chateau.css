@@ -1,0 +1,70 @@
+/*this is default which is set at smaller mobile screen first */
+header { background-image: url("../images/logosmall.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 50px;}
+
+body {  background-color:#4d4b30;
+        color:#482216 ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+main  {background-color:#A8693F; 
+        color: #2E3842;
+    }
+img { width: 100%;
+    height: auto;
+}
+/* all the list first line would set in bold*/
+dt { font-weight: bold;
+}
+aside {
+    background-color:#4F4F4F;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+.circleborder {
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.largeitalics { font-style: italic;
+        font-size: 1.2em;
+}
+
+nav {font-size: 1.5em;}
+/* for NAV where link is not visited*/
+nav a:link {color: blue;}
+
+/* for NAV where link is visited*/
+nav a:visited {color: black;}
+
+/* for NAV mouse hover link */
+nav a:hover {color: red;}
+
+/* this media screen would only apply to anything great than 480px*/
+@media screen and (min-width: 480px) {
+    header {background-color:#482216; 
+        color: #4d4b30;
+        background-image: url("../images/LogoLarge.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        min-height: 100px;
+    }
+    body {  background-color:#3F3D27;
+            color: #C7C7C7;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        main  {background-color: #773A22; 
+            color: #BDCFD1;
+        }
+        .circleborder {
+            border-radius: 150px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
+    }
+    
+        
