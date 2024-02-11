@@ -1,5 +1,5 @@
 /*this is default which is set at smaller mobile screen first */
-header { background-image: url("../images/logosmall.png");
+header { background-image: url("images/LogoSmall.png");
     background-position: right;
     background-repeat: no-repeat;
     min-height: 50px;}
